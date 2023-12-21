@@ -1,0 +1,81 @@
+.profile {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.description {
+  width: 100%;
+  background-color: white;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(164, 252, 223);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(147, 224, 242);
+  margin-bottom: 30px;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.tag {
+  color: grey;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.location {
+  color: grey;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  border: 2px solid rgb(164, 252, 223);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(231, 246, 249);
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  padding: 20px 0;
+  border-right: 2px solid rgb(164, 252, 223);
+}
+
+.stats > li:last-child {
+  border-right: none;
+}
+
+.label {
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.quantity {
+  color: black;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
