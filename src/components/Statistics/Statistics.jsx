@@ -5,7 +5,7 @@ import getRandomColor from 'helpers/getRandomColor.js';
 export const Statistics = ({ title = null, dataset }) => {
   return (
     <section className={css.statistics}>
-      {title && { title } && <h2 className={css.title}>{title}</h2>}
+      {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
         {dataset.map(item => (
           <li
